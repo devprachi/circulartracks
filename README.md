@@ -24,3 +24,7 @@ Problem Statement
    happen.
 4. Triangles should be plotted in a way that it shouldn’t be
    overlapped.
+
+# Screenshot
+
+![alt text](image.png)
