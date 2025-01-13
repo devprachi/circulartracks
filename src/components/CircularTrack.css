@@ -1,0 +1,63 @@
+.trackContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 500px;
+  border-radius: 50%;
+  padding-bottom: 10%;
+  transform: translateY(20%);
+
+  .circularTrack {
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+  }
+  .track1 {
+    background-color: rgba(230, 205, 220, 255);
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+  }
+  .track2 {
+    background-color: rgba(200, 1, 0, 255);
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+  }
+  .track3 {
+    background-color: rgba(240, 190, 49, 255);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+  }
+  .track4 {
+    background-color: rgba(106, 165, 75, 255);
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+  }
+  .track5 {
+    background-color: rgba(60, 130, 195, 255);
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+  }
+}
+
+.trianglesContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  z-index: 10;
+}
+.triangle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 15px solid black;
+  position: absolute;
+  z-index: 20;
+}
